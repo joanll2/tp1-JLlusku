@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="idk" id="5F5C3213-0C63-9788-2EAA-E70261371EC4" version="3.5">
+<createdBy>LlusJo1</createdBy>
+<createdTime>2025-04-11 21:07:34 UTC</createdTime>
+<ownerDesignName>idk</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>5F5C3213-0C63-9788-2EAA-E70261371EC4</designId>
+</OSDM_Design>

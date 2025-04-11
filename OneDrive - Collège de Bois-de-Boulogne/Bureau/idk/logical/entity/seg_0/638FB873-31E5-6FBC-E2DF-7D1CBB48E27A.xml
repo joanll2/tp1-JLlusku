@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="638FB873-31E5-6FBC-E2DF-7D1CBB48E27A" name="divison">
+<createdBy>LlusJo1</createdBy>
+<createdTime>2025-04-11 21:10:09 UTC</createdTime>
+<ownerDesignName>idk</ownerDesignName>
+<engineerTo>
+<item key="7C661EBC-8C61-2B97-0A66-6E5CD985D22E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="joueur" id="A50DA0F7-364B-DF36-6A8D-D997CC617AAC">
+<createdBy>LlusJo1</createdBy>
+<createdTime>2025-04-11 21:12:49 UTC</createdTime>
+<ownerDesignName>idk</ownerDesignName>
+<engineerTo>
+<item key="7C661EBC-8C61-2B97-0A66-6E5CD985D22E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nom" id="E00F045B-8FBA-1624-BC9B-B378ABA12D2F">
+<createdBy>LlusJo1</createdBy>
+<createdTime>2025-04-11 21:12:50 UTC</createdTime>
+<ownerDesignName>idk</ownerDesignName>
+<engineerTo>
+<item key="7C661EBC-8C61-2B97-0A66-6E5CD985D22E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="position" id="D06715BC-4B59-2A98-267C-BBBF44354AAA">
+<createdBy>LlusJo1</createdBy>
+<createdTime>2025-04-11 21:12:51 UTC</createdTime>
+<ownerDesignName>idk</ownerDesignName>
+<engineerTo>
+<item key="7C661EBC-8C61-2B97-0A66-6E5CD985D22E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT026</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F4E672DE-5420-65CD-5939-C423A11039D8" name="divison PK">
+<createdBy>LlusJo1</createdBy>
+<createdTime>2025-04-11 21:13:31 UTC</createdTime>
+<ownerDesignName>idk</ownerDesignName>
+<engineerTo>
+<item key="7C661EBC-8C61-2B97-0A66-6E5CD985D22E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A50DA0F7-364B-DF36-6A8D-D997CC617AAC</attributeRef>
+<attributeRef>E00F045B-8FBA-1624-BC9B-B378ABA12D2F</attributeRef>
+<attributeRef>D06715BC-4B59-2A98-267C-BBBF44354AAA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
